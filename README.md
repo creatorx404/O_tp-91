@@ -4,8 +4,8 @@ Follow these steps to download and set up the tool:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/creatorx404/O_tps.git
-   cd O_tps
+   git clone https://github.com/creatorx404/O_tps-91.git
+   cd O_tps-91
    ```
 
 2. **Enable the virtual environment with**
@@ -37,8 +37,8 @@ Once everything is installed, you can start using the tool with a simple command
 python3 core.py <phone-number>
 ```
 
-- Replace `<phone-number>` with the target phone number (e.g., `+923001234567`).
-- Ensure the phone number is in the correct format with the country code (Pakistan's country code is `+92`).
+- Replace `<phone-number>` with the target phone number (e.g., `+913001234567`).
+- Ensure the phone number is in the correct format with the country code (country code is `+91`).
 
 Example:
 ```bash
