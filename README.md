@@ -8,9 +8,18 @@ Follow these steps to download and set up the tool:
    cd O_tps
    ```
 
-2.** Enable the virtual environment with**
-   '''python -m venv venv
-   source venv/bin/activate'''
+2. **Enable the virtual environment with**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Add playwright integration**
+   ```bash
+   pip install playwright
+   playwright install chromium
+   playwright install firefox
+   ```
    
 3. **Install required libraries**:
    Run the following command to install all dependencies.
@@ -33,12 +42,12 @@ python3 core.py <phone-number>
 
 Example:
 ```bash
-python3 core.py +923001234567
+python3 core.py +913001234567
 ```
 To test for only one site
 
 ```bash
-python3 core.py +923001234567 --site priceoye
+python3 core.py +913001234567 --site redbus
 ```
 ## Legal Disclaimer
 
