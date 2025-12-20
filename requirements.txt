@@ -6,3 +6,4 @@ tqdm
 requests-toolbelt
 requests
 pycryptodome
+trio-asyncio
